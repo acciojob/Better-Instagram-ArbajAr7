@@ -15,7 +15,4 @@ function dragStart(event) {
     let temp = draggedDiv.id;
     draggedDiv.id = droppedDiv.id;
     droppedDiv.id = temp;
-    console.log(draggedDiv);
-    console.log("**************************************");
-    console.log(droppedDiv);
   }
